@@ -1,0 +1,135 @@
+service:
+  bw:
+    mysql:
+      sit:
+        ip: 192.168.27.51
+        port: 4000
+        username: 'bwintl_sit'
+        password: 'B5NcctOgO5N3LjHG'
+        database: baowang_sit
+        autocommit: False
+        charset: utf8
+      dev:
+        ip: 192.168.27.51
+        port: 4000
+        username: 'bw_dev'
+        password: 'wohnged8po2gieRu'
+        database: baowang_oversea
+        autocommit: False
+        charset: utf8
+    redis:
+      sit:
+        ip: 192.168.27.176
+        port: 6382
+        password: db1TiagWBY5cG5o6
+        db: 0
+        encoding: 'utf-8'
+        decode_responses: True
+      dev:
+        ip: 192.168.27.166
+        port: 6379
+        password: Lee4vaiRe9air7Oo
+        db: 0
+        encoding: 'utf-8'
+        decode_responses: True
+    backend:
+      sit:
+        host: https://console.playesoversea.pro
+      dev:
+        host: https://gw.playesoversea.store
+    site_code:
+      sit:
+        host1: Vd438R
+    site_backend1:
+      sit:
+        host: https://site.bwsh.store/api
+      dev:
+        host:
+    site_backend2:
+      sit:
+        host: https://site.playesoversea.pro
+      dev:
+        host:
+    site_client1:
+      sit:
+        host: https://backend.bwsh.store
+    capcha_api_key:
+      sit:
+        api_key: dcbefb7f-d3a4-4e87-8ae3-7b4a93813cbf
+    aes:
+      sit:
+        key: 73yL8IM2TNWklsQ1
+        iv: 9EbF6zX1UyjxZoTl
+        salt: BSMYJXIA
+    sb:
+      sit:
+        register_host: http://d743tsa.bw6688.com
+        login_host: http://apistaging.wx7777.com
+        vendor_id: 7ryqqaoq1h
+        operatorId: okok
+        prefix: Utest_
+
+    job:
+      sit:
+        host: http://192.168.27.176:8080
+        username: admin
+        password: 123456
+  live:
+    mongo:
+      sit:
+        host: 192.168.28.131
+        port: 27017
+        username: live
+        password: C8CcmZqHTBjm6gpa
+        db: lg_live
+        auth: lg_live
+      uat:
+        host: 34.96.148.212
+        port: 27017
+        username: xingyao
+        password: s$$q2BKXfs!n0Jv
+        db: live_mg_db
+        auth: admin
+    redis:
+      sit:
+        host: 192.168.28.138
+        port: 7002
+        password: adT68CMZfz0W7w14
+        db: 0
+      uat:
+        host: 34.92.143.35
+        port: 6379
+        password: FpfA9vXXaBlmxUUm
+        db: 0
+    mq:
+      sit:
+        host: 192.168.28.140
+        port: 5672
+        username: admin
+        password: rSB7IjYwc7NUrJcZ
+      uat:
+        host: 34.92.143.35
+        port: 5672
+        username: xingyao_test
+        password: YU@Idchl06E!6ip
+    ws:
+      sit:
+        host: ws://gw.sjlive.online/maya/game?Authorization=
+      uat:
+        host: ws://gate.mogm.xyz/gw/maya/game?Authorization=
+    mysql:
+      sit:
+        host: 192.168.28.135
+        port: 3306
+        username: live
+        password: AddsVZ5iAYezMxnN
+        db_name: lg_live
+
+    merchant:
+      sit:
+        sign: CCPR65UUT4YATT9N
+        merchant_no: ES497
+        login_host: http://api.sjlive.online
+        ws_host: ws://gate.mogm.xyz/gw/maya/game?Authorization=
+
+
